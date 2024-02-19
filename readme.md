@@ -23,5 +23,33 @@ Laravel sangat dapat diskalakan. Berkat sifat yang ramah terhadap skalabilitas d
 
 Butuh skalabilitas ekstrem? Platform seperti [Laravel Vapor](https://vapor.laravel.com/) memungkinkan Anda menjalankan aplikasi Laravel Anda dengan skala yang hampir tak terbatas pada teknologi serverless terbaru AWS.
 
-Sebuah Kerangka Kerja Komunitas
+### Sebuah Kerangka Kerja Komunitas
 Laravel menggabungkan paket-paket terbaik dalam ekosistem PHP untuk menawarkan kerangka kerja yang paling kokoh dan ramah pengembang yang tersedia. Selain itu, ribuan pengembang berbakat dari seluruh dunia telah berkontribusi pada kerangka kerja tersebut. Siapa tahu, mungkin Anda juga akan menjadi kontributor Laravel.
+
+# Membuat Proyek Laravel
+Sebelum membuat proyek Laravel pertama Anda, pastikan mesin lokal Anda telah memiliki PHP dan Composer terinstal. Jika Anda mengembangkan di macOS, PHP dan Composer dapat diinstal dalam hitungan menit melalui Laravel Herd. Selain itu, kami sarankan untuk menginstal Node dan NPM.
+
+Setelah Anda menginstal PHP dan Composer, Anda dapat membuat proyek Laravel baru melalui perintah create-project dari Composer:
+
+```bash
+composer create-project --prefer-dist laravel/laravel nama-aplikasi-contoh
+```
+
+Atau, Anda dapat membuat proyek Laravel baru dengan menginstal global installer Laravel melalui Composer:
+
+```bash
+composer global require laravel/installer
+
+laravel new nama-aplikasi-contoh
+```
+
+Setelah proyek telah dibuat, mulailah server pengembangan lokal Laravel menggunakan perintah serve di Laravel Artisan:
+
+```bash
+cd nama-aplikasi-contoh
+
+php artisan serve
+```
+
+Setelah Anda memulai server pengembangan Artisan, aplikasi Anda akan dapat diakses melalui browser web Anda di http://localhost:8000. Selanjutnya, Anda siap untuk melangkah ke ekosistem Laravel selanjutnya. Tentu saja, Anda juga mungkin ingin mengkonfigurasi sebuah basis data.
+
