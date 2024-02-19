@@ -8,4 +8,4 @@ Laravel berusaha memberikan pengalaman pengembang yang luar biasa sambil menyedi
 
 Baik Anda baru mengenal kerangka kerja aplikasi web PHP atau memiliki pengalaman bertahun-tahun, Laravel adalah kerangka kerja yang dapat tumbuh bersama Anda. Kami akan membantu Anda melangkah pertama sebagai pengembang web atau memberikan dorongan saat Anda meningkatkan keahlian Anda ke tingkat berikutnya. Kami tak sabar untuk melihat apa yang Anda bangun.
 
-Baru mengenal Laravel? Cek [I'm an inline-style link]Bootcamp Laravel untuk tur langsung kerangka kerja sambil kami membimbing Anda dalam membangun aplikasi Laravel pertama Anda.
+Baru mengenal Laravel? Cek [Bootcamp Laravel](https://bootcamp.laravel.com/) untuk tur langsung kerangka kerja sambil kami membimbing Anda dalam membangun aplikasi Laravel pertama Anda.
