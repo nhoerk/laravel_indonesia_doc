@@ -17,3 +17,11 @@ Terdapat berbagai alat dan kerangka kerja yang tersedia untuk Anda saat membangu
 Kami suka menyebut Laravel sebagai kerangka kerja "progresif". Dengan itu, kami maksudkan bahwa Laravel tumbuh bersama Anda. Jika Anda baru mengambil langkah pertama dalam pengembangan web, perpustakaan dokumentasi, panduan, dan tutorial video yang luas dari Laravel akan membantu Anda belajar tanpa menjadi terlalu kewalahan.
 
 Jika Anda seorang pengembang senior, Laravel memberikan Anda alat-alat yang kokoh untuk dependency injection, pengujian unit, antrean, peristiwa real-time, dan lainnya. Laravel disesuaikan dengan baik untuk membangun aplikasi web profesional dan siap untuk menangani beban kerja perusahaan.
+
+### Sebuah Kerangka Kerja yang Dapat Diskalakan
+Laravel sangat dapat diskalakan. Berkat sifat yang ramah terhadap skalabilitas dari PHP dan dukungan bawaan Laravel untuk sistem cache terdistribusi yang cepat seperti Redis, melakukan skalabilitas horizontal dengan Laravel menjadi mudah. Bahkan, aplikasi Laravel telah dengan mudah diskalakan untuk menangani ratusan juta permintaan per bulan.
+
+Butuh skalabilitas ekstrem? Platform seperti [Laravel Vapor](https://vapor.laravel.com/) memungkinkan Anda menjalankan aplikasi Laravel Anda dengan skala yang hampir tak terbatas pada teknologi serverless terbaru AWS.
+
+Sebuah Kerangka Kerja Komunitas
+Laravel menggabungkan paket-paket terbaik dalam ekosistem PHP untuk menawarkan kerangka kerja yang paling kokoh dan ramah pengembang yang tersedia. Selain itu, ribuan pengembang berbakat dari seluruh dunia telah berkontribusi pada kerangka kerja tersebut. Siapa tahu, mungkin Anda juga akan menjadi kontributor Laravel.
