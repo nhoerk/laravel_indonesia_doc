@@ -53,3 +53,5 @@ php artisan serve
 
 Setelah Anda memulai server pengembangan Artisan, aplikasi Anda akan dapat diakses melalui browser web Anda di http://localhost:8000. Selanjutnya, Anda siap untuk melangkah ke ekosistem Laravel selanjutnya. Tentu saja, Anda juga mungkin ingin mengkonfigurasi sebuah basis data.
 
+Jika Anda ingin mendapatkan awal yang cepat saat mengembangkan aplikasi Laravel Anda, pertimbangkan untuk menggunakan salah satu [starter kit](https://laravel.com/docs/10.x/starter-kits) kami. Starter kit Laravel menyediakan kerangka kerja otentikasi backend dan frontend untuk aplikasi Laravel baru Anda.
+
