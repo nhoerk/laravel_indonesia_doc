@@ -1,6 +1,6 @@
 Dokumentasi Laravel dalam bahasa Indonesia
 
-#Berkenalan dengan Laravel
+# Berkenalan dengan Laravel
 
 Laravel adalah sebuah kerangka kerja aplikasi web dengan sintaks yang ekspresif dan elegan. Sebuah kerangka kerja web menyediakan struktur dan titik awal untuk membuat aplikasi Anda, memungkinkan Anda fokus pada menciptakan sesuatu yang menakjubkan sementara kami mengurus detailnya.
 
