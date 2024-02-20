@@ -58,4 +58,16 @@ Jika Anda ingin mendapatkan awal yang cepat saat mengembangkan aplikasi Laravel 
 # Konfigurasi Awal
 Semua file konfigurasi untuk kerangka kerja Laravel disimpan dalam direktori `config`. Setiap opsi didokumentasikan, jadi silakan telusuri file-file tersebut dan kenali opsi yang tersedia untuk Anda.
 
-Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file `config/app.php` dan dokumentasinya. Ini berisi beberapa opsi seperti `timezone` dan `local` yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
+Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file `config/app.php` dan dokumentasinya. Ini berisi beberapa opsi seperti `timezone` dan `locale` yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
+
+### Konfigurasi Berbasis Lingkungan
+Karena banyak nilai opsi konfigurasi Laravel dapat bervariasi tergantung pada apakah aplikasi Anda berjalan di mesin lokal atau di server web produksi, banyak nilai konfigurasi penting didefinisikan menggunakan file `.env` yang ada di root aplikasi Anda.
+
+File `.env` Anda sebaiknya tidak dicantumkan dalam kontrol sumber aplikasi Anda, karena setiap pengembang/server yang menggunakan aplikasi Anda mungkin memerlukan konfigurasi lingkungan yang berbeda. Selain itu, ini akan menjadi risiko keamanan jika seorang intruder mendapatkan akses ke repositori kontrol sumber Anda, karena setiap kredensial sensitif akan terbuka.
+
+Untuk informasi lebih lanjut tentang file `.env` dan konfigurasi berbasis lingkungan, Anda dapat memeriksa [dokumentasi konfigurasi](https://laravel.com/docs/10.x/configuration#environment-configuration) lengkapnya.
+
+### Database dan Migrasi
+Sekarang setelah Anda telah membuat aplikasi Laravel Anda, Anda mungkin ingin menyimpan beberapa data dalam basis data. Secara default, file konfigurasi `.env` aplikasi Anda menentukan bahwa Laravel akan berinteraksi dengan basis data MySQL dan akan mengakses basis data di `127.0.0.1`.
+
+Jika Anda mengembangkan di macOS dan perlu menginstal MySQL, Postgres, atau Redis secara lokal, pertimbangkan untuk menggunakan [DBngin](https://dbngin.com/).
