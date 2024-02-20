@@ -58,4 +58,4 @@ Jika Anda ingin mendapatkan awal yang cepat saat mengembangkan aplikasi Laravel 
 # Konfigurasi Awal
 Semua file konfigurasi untuk kerangka kerja Laravel disimpan dalam direktori `config`. Setiap opsi didokumentasikan, jadi silakan telusuri file-file tersebut dan kenali opsi yang tersedia untuk Anda.
 
-Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file `config/app.php` dan dokumentasinya. Ini berisi beberapa opsi seperti zona waktu dan lokal yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
+Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file `config/app.php` dan dokumentasinya. Ini berisi beberapa opsi seperti `timezone` dan `local` yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
