@@ -56,6 +56,6 @@ Setelah Anda memulai server pengembangan Artisan, aplikasi Anda akan dapat diaks
 Jika Anda ingin mendapatkan awal yang cepat saat mengembangkan aplikasi Laravel Anda, pertimbangkan untuk menggunakan salah satu [starter kit](https://laravel.com/docs/10.x/starter-kits) kami. Starter kit Laravel menyediakan kerangka kerja otentikasi backend dan frontend untuk aplikasi Laravel baru Anda.
 
 # Konfigurasi Awal
-Semua file konfigurasi untuk kerangka kerja Laravel disimpan dalam direktori config. Setiap opsi didokumentasikan, jadi silakan telusuri file-file tersebut dan kenali opsi yang tersedia untuk Anda.
+Semua file konfigurasi untuk kerangka kerja Laravel disimpan dalam direktori `config`. Setiap opsi didokumentasikan, jadi silakan telusuri file-file tersebut dan kenali opsi yang tersedia untuk Anda.
 
-Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file config/app.php dan dokumentasinya. Ini berisi beberapa opsi seperti zona waktu dan lokal yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
+Laravel hampir tidak memerlukan konfigurasi tambahan secara default. Anda bebas untuk mulai mengembangkan! Namun, Anda mungkin ingin meninjau file `config/app.php` dan dokumentasinya. Ini berisi beberapa opsi seperti zona waktu dan lokal yang mungkin ingin Anda ubah sesuai dengan aplikasi Anda.
