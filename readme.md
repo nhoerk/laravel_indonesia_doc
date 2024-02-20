@@ -72,7 +72,7 @@ Sekarang setelah Anda telah membuat aplikasi Laravel Anda, Anda mungkin ingin me
 
 Jika Anda mengembangkan di macOS dan perlu menginstal MySQL, Postgres, atau Redis secara lokal, pertimbangkan untuk menggunakan [DBngin](https://dbngin.com/).
 
-Jika Anda tidak ingin menginstal MySQL atau Postgres di mesin lokal Anda, Anda selalu dapat menggunakan basis data SQLite. SQLite adalah mesin basis data kecil, cepat, dan mandiri. Untuk memulai, perbarui file konfigurasi .env Anda untuk menggunakan driver basis data sqlite Laravel. Anda dapat menghapus opsi konfigurasi basis data lainnya:
+Jika Anda tidak ingin menginstal MySQL atau Postgres di mesin lokal Anda, Anda selalu dapat menggunakan basis data SQLite. SQLite adalah mesin basis data kecil, cepat, dan mandiri. Untuk memulai, perbarui file konfigurasi `.env` Anda untuk menggunakan driver basis data sqlite Laravel. Anda dapat menghapus opsi konfigurasi basis data lainnya:
 
 ```plaintext
 DB_CONNECTION=sqlite 
@@ -91,3 +91,8 @@ php artisan migrate
 ```
 
 Jika basis data SQLite tidak ada untuk aplikasi Anda, Laravel akan bertanya apakah Anda ingin membuat basis data tersebut. Biasanya, file basis data SQLite akan dibuat di `database/database.sqlite`.
+
+### Konfigurasi Direktori
+Laravel harus selalu disajikan dari root dari "direktori web" yang dikonfigurasi untuk server web Anda. Anda tidak seharusnya mencoba menyajikan aplikasi Laravel dari subdirektori dari "direktori web". Mencoba melakukannya dapat mengekspos file-file sensitif yang ada dalam aplikasi Anda.
+
+
