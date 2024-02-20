@@ -71,3 +71,23 @@ Untuk informasi lebih lanjut tentang file `.env` dan konfigurasi berbasis lingku
 Sekarang setelah Anda telah membuat aplikasi Laravel Anda, Anda mungkin ingin menyimpan beberapa data dalam basis data. Secara default, file konfigurasi `.env` aplikasi Anda menentukan bahwa Laravel akan berinteraksi dengan basis data MySQL dan akan mengakses basis data di `127.0.0.1`.
 
 Jika Anda mengembangkan di macOS dan perlu menginstal MySQL, Postgres, atau Redis secara lokal, pertimbangkan untuk menggunakan [DBngin](https://dbngin.com/).
+
+Jika Anda tidak ingin menginstal MySQL atau Postgres di mesin lokal Anda, Anda selalu dapat menggunakan basis data SQLite. SQLite adalah mesin basis data kecil, cepat, dan mandiri. Untuk memulai, perbarui file konfigurasi .env Anda untuk menggunakan driver basis data sqlite Laravel. Anda dapat menghapus opsi konfigurasi basis data lainnya:
+
+```plaintext
+DB_CONNECTION=sqlite 
+# DB_CONNECTION=mysql 
+# DB_HOST=127.0.0.1 
+# DB_PORT=3306 
+# DB_DATABASE=laravel 
+# DB_USERNAME=root 
+# DB_PASSWORD=
+```
+
+Setelah Anda mengonfigurasi basis data SQLite Anda, Anda dapat menjalankan [migrasi basis data](https://laravel.com/docs/10.x/migrations) aplikasi Anda, yang akan membuat tabel-tabel basis data aplikasi Anda:
+
+```bash
+php artisan migrate
+```
+
+Jika basis data SQLite tidak ada untuk aplikasi Anda, Laravel akan bertanya apakah Anda ingin membuat basis data tersebut. Biasanya, file basis data SQLite akan dibuat di `database/database.sqlite`.
